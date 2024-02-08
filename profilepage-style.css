@@ -18,7 +18,7 @@ body {
   }
   
   .user-page .overlap {
-    position: absolute;
+    position: fixed;
     width: 390px;
     height: 1024px;
     top: 0;
