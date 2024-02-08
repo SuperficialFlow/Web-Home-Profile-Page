@@ -47,13 +47,13 @@ body {
     letter-spacing: 0;
     line-height: normal;
   }
-  
-  .user-page .image {
+
+  .user-page .asstro-logo {
+    position: absolute;
     width: 86px;
     height: 78px;
-    top: 11px;
+    top: 10px;
     left: 1px;
-    position: absolute;
     object-fit: cover;
   }
   
@@ -137,7 +137,7 @@ body {
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .user-page .overlap-3 {
     position: absolute;
     width: 369px;
@@ -146,10 +146,10 @@ body {
     left: 1071px;
     background-color: #ffffff;
   }
-  
+
   .user-page .text-wrapper-7 {
     position: absolute;
-    top: 43px;
+    top: 20px;
     left: 23px;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
@@ -158,14 +158,19 @@ body {
     letter-spacing: 0;
     line-height: normal;
   }
-  
-  .user-page .img {
-    width: 52px;
-    height: 50px;
-    top: 34px;
-    left: 281px;
+
+  .user-page .user-followers-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    object-fit: cover;
+    width: 19rem;
+    height: 15rem;
+    top: 12rem;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 1px solid;
   }
   
   .user-page .overlap-4 {
@@ -175,6 +180,20 @@ body {
     top: 337px;
     left: 1071px;
     background-color: #ffffff;
+  }
+
+  .user-page .user-trending-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 19rem;
+    height: 35rem;
+    top: 22rem;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 1px solid;
   }
   
   .user-page .text-wrapper-8 {
@@ -209,17 +228,15 @@ body {
   }
   
   .user-page .overlap-5 {
-    position: absolute;
-    width: 136px;
-    height: 207px;
-    top: 21px;
-    left: 259px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
   }
   
   .user-page .text-wrapper-9 {
     position: absolute;
-    top: 135px;
-    left: 8px;
+    top: 8rem;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -230,8 +247,7 @@ body {
   
   .user-page .text-wrapper-10 {
     position: absolute;
-    top: 177px;
-    left: 17px;
+    top: 11rem;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -263,8 +279,8 @@ body {
   
   .user-page .text-wrapper-12 {
     position: absolute;
-    top: 285px;
-    left: 179px;
+    top: 17rem;
+    left: 11rem;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -275,8 +291,8 @@ body {
   
   .user-page .text-wrapper-13 {
     position: absolute;
-    top: 285px;
-    left: 385px;
+    top: 17rem;
+    left: 25rem;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -285,16 +301,26 @@ body {
     line-height: normal;
   }
   
+  .user-page .p-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 2rem;
+    margin-top: 5rem; 
+    margin-left: 9rem;
+  }
+  
   .user-page .p {
-    position: absolute;
-    top: 244px;
-    left: 134px;
+    text-align: center;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #d3d3d3;
-    font-size: 20px;
+    font-size: 1rem;
     letter-spacing: 0;
     line-height: normal;
+    margin: 0; 
   }
   
   .user-page .text-wrapper-14 {
@@ -332,4 +358,19 @@ body {
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .user-page .user-posts-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 36rem;
+    height: 30rem;
+    top: 45rem;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 1px solid;
+  }
+
   

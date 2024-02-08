@@ -161,6 +161,10 @@ body {
 }
 
 .home-page .overlap-group-2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
   position: absolute;
   width: 675px;
   height: 1024px;
@@ -238,4 +242,65 @@ body {
   top: 53px;
   left: 484px;
   object-fit: cover;
+}
+
+.home-page .timeline-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 36rem;
+  height: 45rem;
+  top: 35rem;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border: 1px solid;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-close {
+  cursor: pointer;
+}
+
+.popup-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-button {
+  padding: 10px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
