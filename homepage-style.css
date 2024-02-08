@@ -1,5 +1,8 @@
-.home-page {
+body {
   background-color: #d3d3d3;
+}
+
+.home-page {
   display: flex;
   flex-direction: row;
   justify-content: center;
