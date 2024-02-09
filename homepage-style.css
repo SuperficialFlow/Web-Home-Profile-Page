@@ -16,8 +16,9 @@ body {
   position: relative;
 }
 
+/*Sidebar Left*/
 .home-page .overlap {
-  position: fixed;
+  position: sticky;
   width: 390px;
   height: 1024px;
   top: 0;
@@ -26,11 +27,11 @@ body {
 }
 
 .home-page .overlap-group {
-  position: absolute;
+  position: sticky;
   width: 308px;
   height: 106px;
   top: 40px;
-  left: 36px;
+  left: 14%; 
   border: 1px solid;
   border-color: #d3d3d380;
 }
@@ -57,11 +58,11 @@ body {
 }
 
 .home-page .overlap-2 {
-  position: absolute;
+  position: sticky;
   width: 308px;
   height: 624px;
   top: 166px;
-  left: 36px;
+  left: 14%; 
   border: 1px solid;
   border-color: #d3d3d380;
 }
@@ -138,6 +139,7 @@ body {
   line-height: normal;
 }
 
+/*Sidebar Right*/
 .home-page .overlap-3 {
   position: absolute;
   width: 369px;
@@ -160,6 +162,7 @@ body {
   line-height: normal;
 }
 
+/*Timeline Bar*/
 .home-page .overlap-group-2 {
   display: flex;
   flex-direction: column; 

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    .home-page {
+      flex-direction: column; 
+    }
+  
+    .home-page .overlap {
+        margin-left: 13rem;
+    }
+
+    .home-page .overlap-3 {
+        margin-right: 13rem;
+    }
+}
+  
+@media only screen and (max-width: 480px) {
+    .home-page {
+      flex-direction: column; 
+    }
+  
+}
