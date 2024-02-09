@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="profilepage-style.css" />
+    <script src="homepage-post-button.js" defer></script>
   </head>
   <body>
     <div class="user-page">
@@ -13,7 +14,7 @@
             <img class="asstro-logo" src="homepage-img/asstro-logo.png" />
           </div>
           <div class="overlap-2">
-            <div class="div-wrapper"><div class="text-wrapper-2">Post</div></div>
+            <div class="div-wrapper" onclick="openPopup()"><div class="text-wrapper-2">Post</div></div>
             <div class="text-wrapper-3"><a href=homepage.html>Home</a></div>
             <div class="text-wrapper-4">Notifications</div>
             <div class="text-wrapper-5">Trending</div>
@@ -45,6 +46,18 @@
           <div class="text-wrapper-15">Timeline</div>
           <div class="user-posts-placeholder"></div>
         </div>
+      </div>
+    </div>
+
+    <div class="popup-container" id="popupContainer">
+      <div class="popup-header">
+        <div class="text-wrapper">WebsiteName</div>
+        <span class="popup-close" onclick="closePopup()">✕</span>
+      </div>
+      <textarea class="popup-input" placeholder="Type your post here"></textarea>
+      <div class="popup-actions">
+        <button class="popup-button" onclick="submitPost()">Post</button>
+        <button class="popup-button" onclick="closePopup()">Cancel</button>
       </div>
     </div>
   </body>
