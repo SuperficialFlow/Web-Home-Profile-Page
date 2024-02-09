@@ -10,10 +10,15 @@ body {
     width: 100%;
   }
   
+  .user-page .container {
+    overflow-y: auto; 
+  }
+
   .user-page .div {
     background-color: #d3d3d3;
     width: 1440px;
-    height: 1024px;
+    min-height: 100vh; 
+    height: auto; 
     position: relative;
   }
   
@@ -21,7 +26,8 @@ body {
   .user-page .overlap {
     position: sticky;
     width: 390px;
-    height: 1024px;
+    min-height: 100vh; 
+    height: auto; 
     top: 0;
     left: 0;
     background-color: #ffffff;
@@ -140,46 +146,12 @@ body {
   }
 
   /*Sidebar Right*/
-  .user-page .overlap-3 {
-    position: absolute;
-    width: 369px;
-    height: 333px;
-    top: 0;
-    left: 1071px;
-    background-color: #ffffff;
-  }
-
-  .user-page .text-wrapper-7 {
-    position: absolute;
-    top: 20px;
-    left: 23px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .user-page .user-followers-placeholder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 19rem;
-    height: 15rem;
-    top: 12rem;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    border: 1px solid;
-  }
-  
   .user-page .overlap-4 {
     position: absolute;
     width: 369px;
-    height: 687px;
-    top: 337px;
+    min-height: 100vh; 
+    height: auto; 
+    top: 0;
     left: 1071px;
     background-color: #ffffff;
   }
@@ -200,7 +172,7 @@ body {
   
   .user-page .text-wrapper-8 {
     position: absolute;
-    top: 18px;
+    top: 27px;
     left: 23px;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
@@ -214,7 +186,8 @@ body {
   .user-page .overlap-group-2 {
     position: absolute;
     width: 675px;
-    height: 1024px;
+    min-height: 100vh; 
+    height: auto; 
     top: 0;
     left: 393px;
     background-color: #ffffff;
@@ -338,7 +311,7 @@ body {
     line-height: normal;
   }
   
-  .user-page .post-replies {
+  .user-page .text-wrapper-15 {
     position: absolute;
     top: 355px;
     left: 344px;
@@ -350,7 +323,7 @@ body {
     line-height: normal;
   }
   
-  .user-page .text-wrapper-15 {
+  .user-page .text-wrapper-16 {
     position: absolute;
     top: 355px;
     left: 532px;
