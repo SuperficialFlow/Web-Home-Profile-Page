@@ -76,13 +76,14 @@ body {
   
   .sidebar-post {
     display: flex;
-    width: 227px;
     height: 62px;
     background-color: #d9d9d9;
     border-radius: 10px;
     box-shadow: 0px 4px 4px #00000040;
     justify-content: center;
     align-items: center;
+    flex: 1 0 230px;
+    margin-left: -24%;
   }
   
   .sidebar-icons {
@@ -278,6 +279,7 @@ body {
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    margin-left:-1%;
   }
   
   .user-page .text-wrapper-15 {
@@ -290,6 +292,7 @@ body {
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    margin-left: 5%;
   }
   
   .user-page .text-wrapper-16 {
