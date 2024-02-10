@@ -331,6 +331,7 @@ body {
     transform: translate(-50%, -50%);
     width: 400px;
     background-color: white;
+    font-family: "Poppins-Regular", Helvetica;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -369,3 +370,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+
+  textarea {
+    font-family: "Poppins-Regular", Helvetica;
+    resize: none;
+ }

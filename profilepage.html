@@ -7,11 +7,11 @@
     <script src="homepage-post-button.js" defer></script>
   </head>
   <body>
-    <div class="user-page">
+    <div class="user-page" id="blurPage">
       <div class="div">
         <div class="overlap">
           <div class="overlap-group">
-            <div class="text-wrapper">WebsiteName</div>
+            <div class="text-wrapper">Cosmos</div>
             <img class="asstro-logo" src="homepage-img/asstro-logo.png" />
           </div>
           <div class="overlap-2">
@@ -45,13 +45,12 @@
         </div>
       </div>
     </div>
-
     <div class="popup-container" id="popupContainer">
       <div class="popup-header">
-        <div class="text-wrapper">WebsiteName</div>
+        <div class="text-wrapper">Cosmos</div>
         <span class="popup-close" onclick="closePopup()">✕</span>
       </div>
-      <textarea class="popup-input" placeholder="Type your post here"></textarea>
+      <textarea class="popup-input" id="popupInput" placeholder="Tell your cosmics tales!" maxlength="280"></textarea>
       <div class="popup-actions">
         <button class="popup-button" onclick="submitPost()">Post</button>
         <button class="popup-button" onclick="closePopup()">Cancel</button>
