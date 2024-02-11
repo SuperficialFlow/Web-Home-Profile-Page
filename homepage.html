@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="homepage-style.css" />
+    <link rel="stylesheet" href="homepage-posts-timeline.css" />
+    <link rel="stylesheet" href="homepage-timeline-style.css" />
+
     <link rel="stylesheet" href="homepage-mediaquery.css" />
+    <link rel="stylesheet" href="popup-post.css" />
+
     <script src="homepage-post-button.js" defer></script>
+    <script src="homepage-post-to-timeline.js" defer></script>
+
   </head>
   <body>
     <div class="overlay-page" id="overlayPage"></div>
@@ -32,6 +39,7 @@
           <img class="submit-input" src="homepage-img/submit-input.png" />
           <img class="file-input" src="homepage-img/file-input.png" />
           <img class="image-input" src="homepage-img/image-input.png" />
+          
           <div class="timeline-placeholder"></div></div>
         </div>        
       </div>
@@ -39,7 +47,7 @@
 
     <div class="popup-container" id="popupContainer">
       <div class="popup-header">
-        <div class="text-wrapper">Cosmos</div>
+        <div class="text-wrapper">Cosmics</div>
         <span class="popup-close" onclick="closePopup()">✕</span>
       </div>
       <textarea class="popup-input" id="popupInput" placeholder="Tell your cosmics tales!" maxlength="280"></textarea>
