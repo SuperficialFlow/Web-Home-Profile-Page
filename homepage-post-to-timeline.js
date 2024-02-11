@@ -1,11 +1,13 @@
 function openPopup() {
     document.getElementById("overlayPage").style.display = "block";
     document.getElementById("popupContainer").style.display = "block";
+    document.getElementById('blurPage').style.filter = 'blur(5px)';
   }
 
   function closePopup() {
     document.getElementById("overlayPage").style.display = "none";
     document.getElementById("popupContainer").style.display = "none";
+    document.getElementById('blurPage').style.filter = 'none';
   }
 
   function submitPost() {
