@@ -22,6 +22,17 @@ function openPopup() {
       postDiv.innerHTML = '<div class="post-username">' + username + '</div><div class="post-text">' + postText + '</div>';
 
       document.querySelector(".timeline-placeholder").appendChild(postDiv);
+
+      // Likes
+
+      var likeButton = document.createElement("button");
+      likeButton.innerText = "Like";
+      likeButton.setAttribute('id', 'userLike')
+      likeButton.setAttribute('onclick','userLike()')
+      postDiv.append(likeButton);
+
+
+
       closePopup();
     } else {
       alert("Post cannot be empty!");

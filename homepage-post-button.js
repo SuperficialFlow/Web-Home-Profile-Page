@@ -14,3 +14,13 @@ function openPopup() {
   function submitPost() {
     closePopup();
   }
+
+function userLike() {
+  var userLike = document.getElementById('userLike');
+  if (userLike.innerText === 'Liked') {
+    userLike.innerText = 'Like';
+  } else {
+    userLike.innerText = 'Liked';
+  }
+  // Add Like counter
+}
